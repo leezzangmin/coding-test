@@ -28,5 +28,5 @@ for i in range(1,n-1):
     print(s[n-2]+s[i-1]-a[i],'ccc1')
     print(2*s[i-1]+s[n-2]-s[i],'ccc2')
     ans=max(ans,2*s[i-1]+s[n-2]-s[i])
-
+    
 print(ans)
