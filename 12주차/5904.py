@@ -1,3 +1,4 @@
+
 g=lambda i:(i<<2)-bin(i).count('1') 
 i=int(input())-1 
 n=max((i//4)-9,0) 
