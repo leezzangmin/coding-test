@@ -12,31 +12,17 @@ while j<N:
         j+=1
 
     elif sequence[j-1] == sequence[j]:
-        f=True
-        for index in range(i,j):
-            if (j-1)*2 - index+1>=N:
-                f=False
-                break
-            if sequence[index]!=sequence[ (j-1)*2 - index+1 ]:
-                f=False
-                break
-        if f:
+        if sequence[i:j] == sequence[j+j-i-1:j-1:-1]:
             res=max(res,(j-i)*2)
         i+=1
         j=i+1
     else:
-        f=True
-        for index in range(i,j):
-            if (j-1)*2 - index >= N:
-                f=False
-                break
-            if sequence[index]!=sequence[ (j-1)*2 - index ]:
-                f=False
-                break
-        if f:
-            res=max(res,(j-i)*2-1)        
+        if sequence[i:j] == sequence[j+j-i-2:j-2:-1]:
+            res=max(res,(j-i)*2-1)
         i+=1
         j=i+1
  
 
 print(res)
+
+
