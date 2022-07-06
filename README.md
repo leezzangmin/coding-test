@@ -1,12 +1,12 @@
 # 💻 파이썬 코딩테스트 스터디 
 > 2021.07.12 ~ 
 
-![](https://img.shields.io/badge/%EC%8A%A4%ED%84%B0%EB%94%94%EC%9B%90-6-brightgreen?style=for-the-badge&logo=github&color=28b7b2)
+![](https://img.shields.io/badge/%EC%8A%A4%ED%84%B0%EB%94%94%EC%9B%90-5-brightgreen?style=for-the-badge&logo=github&color=28b7b2)
 
 <img src="img/coding-test.png">
 
-  - [일정안내](#일정안내)
-  - [스터디 일지](#스터디-일지)
+- [스터디 규칙](#스터디-규칙)
+- [일정안내](#일정안내)
 
 ## 스터디 규칙
 ### 📄 방식
@@ -19,6 +19,14 @@
 git commit -m "Add : Day 숫자"
 ```
 
+### 💰 출석
+- 벌금제 : 보증금 10000원
+- 출석 인증 : 매일 새벽 2시🕑 까지 완료
+- 1번 결석 시, 보증금에서 `1천원` 차감 💦
+  - 그 주 매주 출석한 팀원들에게 `1 / n` 추가 입금
+
+### 💌 문제 선정
+- 실버 1문제, 골드 1문제
 
 
 ## 일정안내
@@ -33,8 +41,21 @@ git commit -m "Add : Day 숫자"
 |4주차|07.29-08.04|문제풀이|set&map|
 |5주차|08.05-08.11|문제풀이|Binary Search|
 |6주차|08.12-08.18|문제풀이|dfs|
+|7주차|08.19-08.25|문제풀이|bfs|
+|8주차|08.26-09.01|문제풀이|백트레킹|
+|9주차|09.02-09.08|문제풀이|시뮬레이션|
+|10주차|09.09-09.15|문제풀이|그리디|
+|11주차|09.16-09.22|문제풀이|누적 합|
 
-## 스터디 일지 
+## Reference
+- [`문제집` 이것이 코딩테스트다](https://github.com/ndb796/python-for-coding-test)
+- [`문제집` 코딩테스트 대비 문제집](https://github.com/tony9402/baekjoon)
+- [`사이트` 백준 온라인 저지](https://www.acmicpc.net/)
+- [`사이트` 프로그래머스](https://programmers.co.kr/learn/challenges)
+
+
+
+<!-- ## 스터디 일지 
 
 <details markdown="1">
 <summary><strong>스택(2021.07.12 ~ 2021.07.17)</strong></summary>
@@ -162,7 +183,7 @@ git commit -m "Add : Day 숫자"
 |1937|욕심쟁이 판다|
 
 </details>
-
+ -->
 
 
 
